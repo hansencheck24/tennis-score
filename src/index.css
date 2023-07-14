@@ -1,0 +1,28 @@
+:root {
+  --bg-color: #d9e7e8;
+  --bg-board: #76987d;
+  --bg-prev-set: #656a64;
+  --bg-current-set: #eae8ab;
+  --bg-total: #e1dfc8;
+  --color: #010602;
+  --color-prev-set: #eae8ab;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-color);
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: var(--color);
+}

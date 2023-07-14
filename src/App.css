@@ -1,0 +1,79 @@
+.score-box {
+  background: var(--bg-board);
+  border: 1px solid var(--color);
+  min-width: 1000px;
+  padding: 20px 50px;
+}
+
+.court-header {
+  text-align: center;
+  border-bottom: 1px solid var(--color);
+}
+
+.player-row,
+.player-nav {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.player-nav-text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.row-col-left {
+  width: 25%;
+}
+
+.row-col-middle {
+  width: 30%;
+}
+
+.row-col-score {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.player-row-flex {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid var(--color);
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 700;
+  height: 100%;
+}
+
+.box--prev-sets {
+  background-color: var(--bg-prev-set);
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+  color: var(--color-prev-set);
+}
+
+.box--player {
+  background-color: var(--bg-current-set);
+  font-size: 20px;
+}
+
+.box--current {
+  background-color: var(--bg-current-set);
+}
+
+.box--total {
+  background-color: var(--bg-total);
+}
